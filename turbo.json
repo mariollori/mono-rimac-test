@@ -3,7 +3,12 @@
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
     "build": {
-      "outputs": [".next/**", "!.next/cache/**"]
+      "outputs": [".next/**", "!.next/cache/**"],
+      "cache": false
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
     },
     "lint": {}
   }
