@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+
+    "storybook": "turbo run dev --filter=components-rimac",
     "dev": "turbo run dev --filter=rimac-chafa",
     "build": "turbo run build --filter=rimac-chafa",
     "start": "turbo run start --filter=rimac-chafa"
